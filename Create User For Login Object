@@ -1,0 +1,5 @@
+CREATE USER [USER-NAME ] FOR LOGIN [LOGIN NAME] WITH DEFAULT_SCHEMA = [SCHEMA_NAME] ;
+
+USER-NAME  : نام دلخواه برای کاربر  
+LOGIN NAME : Login Object 
+SCHEMA_NAME : schema object 
