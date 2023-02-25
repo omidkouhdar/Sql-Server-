@@ -1,0 +1,6 @@
+Declare @Disk AS Varchar(1000) = '[Data Base Backup File Path]'
+
+Restore DataBase [Data Base Name] From Disk = @Disk 
+WITH MOVE  ['DataBase Name'] TO 'Path Tath Will Save mdf File ' , 
+WITH MOVE ['DataBase Name'_log] TO ['Path Tath Will Save ldf file']
+
